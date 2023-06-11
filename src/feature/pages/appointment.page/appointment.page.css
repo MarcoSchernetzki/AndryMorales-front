@@ -1,0 +1,64 @@
+.container-calendar {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.fc .fc-toolbar.fc-header-toolbar {
+    display: block
+}
+.fc-toolbar-chunk:not(:first-child) .fc-button-group {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 0;
+    top: 113px;
+    width: 150px;
+}
+.fc-toolbar-chunk:not(:first-child) .fc-button-group {
+    max-width: 40px;
+}
+.fc-toolbar-chunk:nth-child(3) .fc-button-group>button{
+    max-width: 150px;
+}
+.fc .fc-button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    position: relative;
+    z-index: 1;
+}
+.fc .fc-button-group>.fc-button {
+    max-width: 40px;
+}
+.fc .fc-button-primary {
+    background-color: transparent;
+    border-color: transparent;
+}
+.fc .fc-toolbar-title {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 80px;
+    width: 100%;
+}
+.fc-direction-ltr .fc-toolbar>*>:not(:first-child) {
+    margin-top: 10px;
+}
+.fc-scrollgrid-section .fc-scrollgrid-section-body {
+    display: none;
+}
+.fc .fc-scrollgrid-liquid {
+    border: none;
+}
+.fc-theme-standard td, .fc-theme-standard th {
+    border: none;
+}
+.fc .fc-col-header-cell-cushion {
+    padding: 2px 9px;
+}
+.fc-col-header {
+    border-bottom: 2px solid white;
+}
