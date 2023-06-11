@@ -1,0 +1,15 @@
+.productlist {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+.productlist li {
+    list-style: none;
+}
+
+.productlist-empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
