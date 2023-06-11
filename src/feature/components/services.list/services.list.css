@@ -1,0 +1,30 @@
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 0;
+    width: 100%;
+    justify-items: center;
+}
+
+.services-list li {
+    list-style: none;
+}
+
+.services-list-empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+
+.services-tittle {
+    margin: 15px auto 0;
+    font-size: 1.25rem;
+    color: #000;
+}
+.tittle-bottom {
+    margin-top: 23px;
+    border-bottom: 2px solid #998e7dc9;
+    animation: move 5s infinite;
+    width: 100px;
+}
