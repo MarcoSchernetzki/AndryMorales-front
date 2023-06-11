@@ -1,0 +1,39 @@
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    min-height: 78.5vh;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttonAdd {
+    width: 9.375rem;
+    height: 2.5rem;
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 500;
+    background: #998e7dc9;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+.buttonAdd:active {
+    background: #9f988ec9;
+}
+
+.buttonInspo {
+    width: 9.375rem;
+    height: 2.5rem;
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 500;
+    background: none;
+    border-radius: 50px;
+    border: solid #ffffff 2px;
+}

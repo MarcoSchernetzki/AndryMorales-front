@@ -1,0 +1,13 @@
+.container-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+    margin-top: 66px;
+    padding: 0 20px 20px;
+}
+.details-tittle {
+    font-size: 24px;
+    font-weight: 600;
+}
