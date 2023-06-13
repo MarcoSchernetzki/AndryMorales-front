@@ -1,10 +1,10 @@
 {
-    "name": "Typescript-Wish-Front-w12y22",
+    "name": "Typescript-Andry-Morales-Front-w5y23",
     "version": "0.1.0",
     "private": true,
     "scripts": {
         "start": "react-scripts start",
-        "build": "react-scripts build",
+        "build": "react-scripts start",
         "test": "react-scripts test",
         "test:all": "react-scripts test --watchAll --collect-coverage",
         "test:prod": "react-scripts test --watchAll --collect-coverage --watchAll=false",
