@@ -3,7 +3,7 @@ import { RepoUser } from './repository';
 
 export class UserRepository implements RepoUser {
     url: string;
-    constructor(url = '') {
+    constructor() {
         this.url = 'http://localhost:7700/users';
     }
 

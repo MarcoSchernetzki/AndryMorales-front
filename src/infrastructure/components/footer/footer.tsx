@@ -1,16 +1,16 @@
-import { Link } from 'react-router-dom';
-import styles from './footer.module.css';
+import React from 'react';
+import './footer.css';
 
 export const Footer = () => {
     return (
-        <footer className={styles.footer}>
+        <footer className="footer">
             <img
                 src="../../../../assets/logo-andry-gota.svg"
                 alt="Andry Morales logo"
                 width="40px"
             />
-            <div className={styles.footer_container}>
-                <div className={styles.footer_social}>
+            <div className="footer_container">
+                <div className="footer_social">
                     <img
                         src="../../../../assets/footer/logo-whatsapp.svg"
                         alt="whatsapp"
@@ -21,14 +21,14 @@ export const Footer = () => {
                             )
                         }
                     />
-                    <a href="#" target="_blank" className={styles.social__icon}>
+                    <a href="#" target="_blank" className="social__icon">
                         <img
                             src="../../../../assets/footer/logo-insta.svg"
                             alt="instagram"
                             width="25px"
                         />
                     </a>
-                    <a href="#" target="_blank" className={styles.social__icon}>
+                    <a href="#" target="_blank" className="social__icon">
                         <img
                             src="../../../../assets/footer/logo-facebook.svg"
                             alt="facebook"
@@ -36,7 +36,7 @@ export const Footer = () => {
                         />
                     </a>
                 </div>
-                <div className={styles.footer_info}>
+                <div className="footer_info">
                     <img
                         src="../../../../assets/footer/visa.png"
                         alt="visa"

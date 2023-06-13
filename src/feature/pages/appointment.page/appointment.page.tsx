@@ -7,7 +7,7 @@ import timeGridPlugin from '@fullcalendar/timegrid';
 import interactionPlugin from '@fullcalendar/interaction';
 import { INITIAL_EVENTS } from '../../wishes/utils/event-utils';
 import { useAppointments } from '../../wishes/hook/use.appointments';
-import { useUsers } from '../../users/hook/use.users';
+import React from 'react';
 
 const renderEventContent = (eventContent: EventContentArg) => {
     return (
@@ -19,7 +19,6 @@ const renderEventContent = (eventContent: EventContentArg) => {
 };
 
 export const AppointmentPage = () => {
-    const { users } = useUsers();
     const {
         handleDateSelect,
         handleEventClick,
