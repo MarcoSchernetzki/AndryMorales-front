@@ -4,7 +4,7 @@
     "private": true,
     "scripts": {
         "start": "react-scripts start",
-        "build": "react-scripts build",
+        "build": "tsc",
         "test": "react-scripts test",
         "test:all": "react-scripts test --watchAll --collect-coverage",
         "test:prod": "react-scripts test --watchAll --collect-coverage --watchAll=false",
