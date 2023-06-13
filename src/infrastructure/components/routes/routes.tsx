@@ -6,6 +6,7 @@ import { LoginPage } from '../../../feature/pages/login.page/login.page';
 import { RegisterPage } from '../../../feature/pages/registerPage/register.page';
 import { AppointmentPage } from '../../../feature/pages/appointment.page/appointment.page';
 import DetailsPage from '../../../feature/pages/details.page/details.page';
+import React from 'react';
 
 export const AppRoutes = () => {
     return (
