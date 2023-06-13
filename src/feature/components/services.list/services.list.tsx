@@ -4,6 +4,7 @@ import { ProductI } from '../../wishes/model/product';
 import { ProductItem } from '../product.item/product.item';
 import './services.list.css';
 import { data } from '../../../infrastructure/data/data';
+import React from 'react';
 
 export const ServicesList = () => {
     const { handleLoad } = useAppointments();

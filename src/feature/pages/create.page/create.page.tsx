@@ -1,4 +1,5 @@
 import CreateForm from '../../components/create.form/create.form';
+import React from 'react';
 
 export const CreatePage = () => {
     return (
