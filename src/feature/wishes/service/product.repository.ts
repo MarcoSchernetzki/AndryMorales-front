@@ -3,7 +3,8 @@ import { ProductI } from '../model/product';
 
 export class ProductRepository implements RepoProduct {
     url: string;
-    constructor() {
+    constructor(_url = '') {
+
         this.url = 'http://localhost:7700/products';
     }
 

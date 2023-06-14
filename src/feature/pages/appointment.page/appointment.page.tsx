@@ -7,7 +7,6 @@ import timeGridPlugin from '@fullcalendar/timegrid';
 import interactionPlugin from '@fullcalendar/interaction';
 import { INITIAL_EVENTS } from '../../wishes/utils/event-utils';
 import { useAppointments } from '../../wishes/hook/use.appointments';
-import React from 'react';
 
 const renderEventContent = (eventContent: EventContentArg) => {
     return (
