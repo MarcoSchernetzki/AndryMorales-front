@@ -16,7 +16,7 @@ export const userReducer = createReducer(initialState, (builder) => {
         isLogged: !!action.payload.token,
     }));
 
-    builder.addCase(ac.logoutActionCreator, (state, _action) => ({
+    builder.addCase(ac.logoutActionCreator, (state) => ({
         ...state,
         user: null,
         token: null,

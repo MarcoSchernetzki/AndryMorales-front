@@ -1,6 +1,7 @@
 import './details.page.css';
 import '../service.page/service.page.css';
 import { useAppointments } from '../../wishes/hook/use.appointments';
+import React from 'react';
 
 function DetailsPage() {
     const { products } = useAppointments();
