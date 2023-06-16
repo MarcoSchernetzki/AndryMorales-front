@@ -20,20 +20,18 @@ export const Footer = () => {
                             )
                         }
                     />
-                    <a href="#" target="_blank" className={styles.social__icon}>
-                        <img
-                            src="../../../../assets/footer/logo-insta.svg"
-                            alt="instagram"
-                            width="25px"
-                        />
-                    </a>
-                    <a href="#" target="_blank" className={styles.social__icon}>
-                        <img
-                            src="../../../../assets/footer/logo-facebook.svg"
-                            alt="facebook"
-                            width="21px"
-                        />
-                    </a>
+                    <img
+                        className={styles.social__icon}
+                        src="../../../../assets/footer/logo-insta.svg"
+                        alt="instagram"
+                        width="25px"
+                    />
+                    <img
+                        className={styles.social__icon}
+                        src="../../../../assets/footer/logo-facebook.svg"
+                        alt="facebook"
+                        width="21px"
+                    />
                 </div>
                 <div className={styles.footer_info}>
                     <img
