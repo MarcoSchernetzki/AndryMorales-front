@@ -9,6 +9,7 @@ import {
     dataComent,
 } from '../../../infrastructure/data/data';
 import { ServicesList } from '../../components/services.list/services.list';
+import React from 'react';
 
 export const HomePage = () => {
     const { handleLoad } = useAppointments();

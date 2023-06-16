@@ -1,6 +1,7 @@
 import { ProductI } from '../../wishes/model/product';
 import { useAppointments } from '../../wishes/hook/use.appointments';
 import './product.item.css';
+import React from 'react';
 
 export const ProductItem = ({ item }: { item: ProductI }) => {
     const { handleSelect } = useAppointments();
